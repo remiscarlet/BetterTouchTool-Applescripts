@@ -1,3 +1,10 @@
+-- Beware when using this. It's like 2/3rds broken but it worked so I stopped bothering to fix it.
+-- Will import a file structure into itunes as-is. Useful for music collections that have nested folders and you want to retain the structure.
+-- Will create a folder playlist on the "root" of your itunes library with ROOT_PLAYLIST_NAME name. Creates the same folder structure from there below.
+-- Configure the two variables below. 
+-- You can add regexes near the bottom to remove any stuff from the folder/song titles like brackets and stuff.
+-- Use at own risk.
+
 set __PATH to "/Users/ytakamoto/Google Drive/THE iDOLM@STER"
 set __ROOT_PLAYLIST_NAME to "THE iDOLM@STER"
 

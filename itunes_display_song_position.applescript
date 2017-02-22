@@ -1,3 +1,7 @@
+-- Will just display the current timestamp and duration of the song.
+-- Eg, will just display something like "2:31/4:52" or whatever. 
+-- Most effective if you set the BTT widget to update every <1 second.
+
 on convertToTimestamp(t)
 	set h to t div 3600 as integer
 	set m to t div 60 mod 60 as integer
