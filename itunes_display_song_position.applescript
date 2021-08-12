@@ -16,7 +16,7 @@ on convertToTimestamp(t)
 	end if
 end convertToTimestamp
 
-tell application "iTunes"
+tell application "Music"
 	if player state is playing then
 		set trackInfo to current track
 		set rtnString to my convertToTimestamp(player position) & "/"
